@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+}
+
+/* .center-box {
+    background-color:darkslateblue;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    z-index: 0;
+}
+
+.center-item {
+    z-index: 1;
+    width:100px;
+    height:100px;
+    background-color:antiquewhite;
+} */
+
+.nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100px;
+    background-color:dodgerblue;
+    color: white;
+    padding:20px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+#dojo_img {
+    height: 50px;
+    width: auto;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+ul li {
+    margin-left: 150px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #c5c5c5;
+}
